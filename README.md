@@ -40,7 +40,7 @@
 
 与其配套的是这么一个物联网继电器,某宝售价3-4元,把ESP8266插入对应的插孔两即可完美❤结合❤.
 
-<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/继电器.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/继电器.jpg" alt="ESP-01.jpg" style="zoom: 33%;" />
 
 
 
@@ -89,9 +89,9 @@ IOS下载[点击下载](https://itunes.apple.com/cn/app/id1357907814)或 在app 
 
 2. 按如下图添加button_on和button_off两个按钮
 
-   <img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/button_on.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/button_on.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
-   <img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/button_off.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+   <img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/button_off.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
 ## 编译并上传示例程序📃
 
@@ -128,7 +128,7 @@ unsigned int localUdpPort = 4210;  // 局域网中的UDP监听端口
 
 同时,我们打开点灯blinker的app,如果你幸运的话它应该已经上线了,在app中点击on或off, 串口调试工具有对应的响应输出.
 
-<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app1.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app1.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
 ## 通电⚡
 
@@ -140,7 +140,7 @@ unsigned int localUdpPort = 4210;  // 局域网中的UDP监听端口
 
 通电成功后,设备大概是这样子.
 
-<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/通电.jpg" alt="ESP-01.jpg" style="zoom: 50%;" />
+<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/通电.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
 
 
@@ -159,9 +159,9 @@ CSharpUdpClient.exe 192.168.1.5 4210 off
 
 App的控制,打开电灯blinker app, 该设备在线后,可通过设备内你自定义的两个图标控制该设备的开关.
 
-<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app2.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app2.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
-<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app1.jpg" alt="ESP-01.jpg" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/liuzhenyulive/ESP8266SmartSwitch/master/Pic/app1.jpg" alt="ESP-01.jpg" style="zoom: 25%;" />
 
 ## 小爱同学📢
 
