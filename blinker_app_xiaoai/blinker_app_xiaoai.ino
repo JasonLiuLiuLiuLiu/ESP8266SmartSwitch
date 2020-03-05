@@ -5,12 +5,12 @@
 #include <WiFiUdp.h>
 #include <Blinker.h>
 
-char auth[] = "2cf492755d68";  //设备key
+char auth[] = "*********";  //设备key
 char ssid[] = "2.4";  //路由器wifi ssid
 char pswd[] = "12345678";  //路由器wifi 密码
+unsigned int localUdpPort = 4210;  // local port to listen on
 
 WiFiUDP Udp;
-unsigned int localUdpPort = 4210;  // local port to listen on
 char incomingPacket[255];  // buffer for incoming packets
 char  replyOn[] = "On";  // a reply string to send back
 char  replyOff[] = "Off";  // a reply string to send back
