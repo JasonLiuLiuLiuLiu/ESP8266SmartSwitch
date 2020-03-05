@@ -1,0 +1,1 @@
+C:\Users\liuzh\OneDrive\ToolsConfigSync\SmartSwitch\CSharpUdpClient.exe 192.168.1.5 4210 off
